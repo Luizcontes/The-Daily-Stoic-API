@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Avenir Next";
+    font-style: italic;
+    font-weight: bold;
+    src: url(../Fonts/00027.ttf)
+    }
+@font-face {
+    font-family: "Avenir Next";
+    font-style: italic;
+    src: url(../Fonts/00034.ttf)
+    }
+@font-face {
+    font-family: "Avenir Next";
+    font-weight: 600;
+    src: url(../Fonts/00031.ttf)
+    }
+@font-face {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    src: url(../Fonts/00024.ttf)
+    }
+@font-face {
+    font-family: "Avenir Next";
+    src: url(../Fonts/00026.ttf)
+    }
+@font-face {
+    font-family: "Fairfield LH Light";
+    font-weight: 300;
+    src: url(../Fonts/00029.ttf)
+    }
+@font-face {
+    font-family: "Fairfield LH";
+    font-style: italic;
+    font-weight: 300;
+    src: url(../Fonts/00025.ttf)
+    }
+@font-face {
+    font-family: "Fairfield LH";
+    font-style: italic;
+    font-weight: bold;
+    src: url(../Fonts/00033.ttf)
+    }
+@font-face {
+    font-family: "Fairfield LH";
+    font-weight: 300;
+    src: url(../Fonts/00023.ttf)
+    }
+@font-face {
+    font-family: "Fairfield LH";
+    font-weight: bold;
+    src: url(../Fonts/00028.ttf)
+    }
+@font-face {
+    font-family: "Minion Pro";
+    font-style: italic;
+    src: url(../Fonts/00032.ttf)
+    }
+@font-face {
+    font-family: "Minion Pro";
+    src: url(../Fonts/00030.ttf)
+    }

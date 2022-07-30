@@ -1,17 +1,22 @@
 {
   "name": "the-daily-stoic-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Service to send you stoic messages everyday",
+  "main": "./src/app.js",
   "scripts": {
+    "start": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Luizcontes/The-Daily-Stoic-API.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "backend",
+    "stoic"
+  ],
+  "author": "Luiz Contes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Luizcontes/The-Daily-Stoic-API/issues"
@@ -19,6 +24,7 @@
   "homepage": "https://github.com/Luizcontes/The-Daily-Stoic-API#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "jsdom": "^20.0.0",
+    "pg": "^8.7.3"
   }
 }

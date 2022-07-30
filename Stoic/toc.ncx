@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="por" xmlns:="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:uuid:4a23adcc-612f-4a5b-916c-218bd75e2880" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (5.35.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Diário Estoico: 366 Lições Sobre Sabedoria, Perseverança e a Arte de Viver</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>OdinRights</text>
+      </navLabel>
+      <content src="Text/OdinRights.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>Folha de rosto</text>
+      </navLabel>
+      <content src="Text/part0000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="2">
+      <navLabel>
+        <text>Créditos</text>
+      </navLabel>
+      <content src="Text/part0001.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
+        <text>Mídias sociais</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="4">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="5">
+      <navLabel>
+        <text>Dedicatória</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_6" playOrder="6">
+      <navLabel>
+        <text>Epígrafe</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_7" playOrder="7">
+      <navLabel>
+        <text>Introdução</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_8" playOrder="8">
+      <navLabel>
+        <text>Parte I: A disciplina da percepção</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+      <navPoint class="chapter" id="num_9" playOrder="9">
+        <navLabel>
+          <text>JANEIRO: clareza</text>
+        </navLabel>
+        <content src="Text/part0008.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_10" playOrder="10">
+        <navLabel>
+          <text>FEVEREIRO: paixões e emoções</text>
+        </navLabel>
+        <content src="Text/part0040.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_11" playOrder="11">
+        <navLabel>
+          <text>MARÇO: consciência</text>
+        </navLabel>
+        <content src="Text/part0070.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="12">
+        <navLabel>
+          <text>ABRIL: pensamento imparcial</text>
+        </navLabel>
+        <content src="Text/part0102.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_13" playOrder="13">
+      <navLabel>
+        <text>Parte II: A disciplina da ação</text>
+      </navLabel>
+      <content src="Text/part0133.html"/>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>MAIO: ação correta</text>
+        </navLabel>
+        <content src="Text/part0134.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>JUNHO: solução de problemas</text>
+        </navLabel>
+        <content src="Text/part0166.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="16">
+        <navLabel>
+          <text>JULHO: dever</text>
+        </navLabel>
+        <content src="Text/part0197.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_17" playOrder="17">
+        <navLabel>
+          <text>AGOSTO: pragmatismo</text>
+        </navLabel>
+        <content src="Text/part0229.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_18" playOrder="18">
+      <navLabel>
+        <text>Parte III: A disciplina da vontade</text>
+      </navLabel>
+      <content src="Text/part0261.html"/>
+      <navPoint class="chapter" id="num_19" playOrder="19">
+        <navLabel>
+          <text>SETEMBRO: força e resiliência</text>
+        </navLabel>
+        <content src="Text/part0262.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_20" playOrder="20">
+        <navLabel>
+          <text>OUTUBRO: virtude e bondade</text>
+        </navLabel>
+        <content src="Text/part0293.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_21" playOrder="21">
+        <navLabel>
+          <text>NOVEMBRO: aceitação / amor fati</text>
+        </navLabel>
+        <content src="Text/part0325.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_22" playOrder="22">
+        <navLabel>
+          <text>DEZEMBRO: meditação sobre a mortalidade</text>
+        </navLabel>
+        <content src="Text/part0356.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_23" playOrder="23">
+      <navLabel>
+        <text>Permanecer estoico</text>
+      </navLabel>
+      <content src="Text/part0388.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_24" playOrder="24">
+      <navLabel>
+        <text>Um modelo de prática estoica tardia e glossário de termos e passagens essenciais</text>
+      </navLabel>
+      <content src="Text/part0389.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_25" playOrder="25">
+      <navLabel>
+        <text>Breve comentário sobre as traduções, referências e fontes</text>
+      </navLabel>
+      <content src="Text/part0391.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_26" playOrder="26">
+      <navLabel>
+        <text>Sugestões para leituras adicionais</text>
+      </navLabel>
+      <content src="Text/part0392.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_27" playOrder="27">
+      <navLabel>
+        <text>Sobre os autores</text>
+      </navLabel>
+      <content src="Text/part0393.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_28" playOrder="28">
+      <navLabel>
+        <text>Conheça outras obras de Ryan Holiday</text>
+      </navLabel>
+      <content src="Text/Text/part0394.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_29" playOrder="29">
+      <navLabel>
+        <text>Leia também</text>
+      </navLabel>
+      <content src="Text/Text/part0395.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
