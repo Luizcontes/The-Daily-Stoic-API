@@ -1,14 +1,13 @@
 const express = require('express')
 const app = express()
-const routes = require('./routes/main')
 
 const PORT = process.env.PORT || 8081
 
-const mainRouter = require('./routes/main')
+const filesRouter = require('./routes/files')
+const stoicRouter = require('./routes/stoic')
 
-app.use(express.static('view'))
-
-app.use('/stoic', mainRouter)
+app.use('/', filesRouter)
+app.use('/stoic', stoicRouter)
 
 app.use((req, res) => {
     res.status(404).send('<h1>Fuck you bitch!!!</h1>')
