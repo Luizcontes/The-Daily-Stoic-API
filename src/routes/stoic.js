@@ -1,12 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const stoicPages = require('../list');
-const fs = require('fs');
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
-const StoicPage = require('../service/stoicPage')
+const stoicPages = require('../assets/list');
+// const fs = require('fs');
+// const jsdom = require('jsdom');
+// const { JSDOM } = jsdom;
+// const StoicPage = require('../service/stoicPage')
 
-const stoicPage = new StoicPage()
+const awsService = require('../service/AWS_SNS')
+
+// const stoicPage = new StoicPage()
+
+const stoicPage = require('../app').stoicPage
 
 router.get('/', (req, res) => {
     try {
@@ -26,9 +30,8 @@ router.get('/count', (req, res) => {
     res.send(`${count}`)
 })
 
-router.get('/:id', (req, res) => {
-    stoicPage.testeChangeDay(req.params.id)
-    res.sendFile('index.html', { root: './src/view/Text' })
-})
+// router.get('/sms', awsService.sendSMS)
+
+router.get('/:id', stoicPage.testeChangeDay)
 
 module.exports = router

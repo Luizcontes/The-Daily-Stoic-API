@@ -17,4 +17,13 @@ router.get('/Images/*', (req, res) => {
     })
 })
 
+router.get('/phonenumber', (req, res) => {
+    console.log(req.query)
+    res.redirect('/index')
+})
+
+router.get('/', (req, res) => {
+    res.redirect('/index')
+})
+
 module.exports = router

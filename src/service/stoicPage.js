@@ -1,12 +1,15 @@
-const list = require('../list')
+const list = require('../assets/list')
 const fs = require('fs');
 const jsdom = require('jsdom');
+const { ComputeOptimizer } = require('aws-sdk');
 const { JSDOM } = jsdom;
 
 class StoicPage {
     constructor() {
         this.pageNumber = Object.keys(list).length
-        this.today = 0
+        this.content = fs.readFileSync(`./Stoic/Text/${list[1]}`, 'utf8')
+        this.today = 1
+        this.title
     }
 
     actualDay() {
@@ -35,17 +38,37 @@ class StoicPage {
 
     changeFile() {
         try {
-        const content = fs.readFileSync(`./Stoic/Text/${list[this.today]}`, 'utf8')
-        fs.writeFileSync('./src/view/Text/index.html', content)
+            this.content = fs.readFileSync(`./Stoic/Text/${list[this.today]}`, 'utf8')
+            fs.writeFileSync('./src/view/Text/index.html', this.content)
+            this.setTitle()
             return true
         } catch (error) {
+            console.log(error)
             return false
         }
     }
 
-    testeChangeDay(index) {
-        this.today = index
+    testeChangeDay = (req, res) => {
+        this.today = req.params.id
         this.changeFile()
+        this.setTitle()
+        res.sendFile('index.html', { root: './src/view/Text' })
+    }
+
+    setTitle() {
+        const page = new JSDOM(this.content)
+        const title = page.window.document.querySelector('.class_s13').textContent
+        this.title = title
+        return this.title
+    }
+
+    getTitle() {
+        if (this.title === undefined) {
+            const title = this.setTitle()
+            return title
+        } else {
+            return this.title
+        }
     }
 }
 
