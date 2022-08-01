@@ -4,14 +4,15 @@ require('dotenv').config();
 
 var AWS = require('aws-sdk')
 
-exports.sendSMS = (message) => {
+exports.sendSMS = (message, foneNumber) => {
 
+    console.log("Subject = " + 'Daily-Stoic');
     console.log("Message = " + message);
-    // console.log("Number = " + '+351 924 469 387');
-    // console.log("Subject = " + 'Daily-Stoic');
+    console.log("Number = " + foneNumber);
     var params = {
         Message: message,
-        PhoneNumber: '+' + 351924469387,
+        PhoneNumber: `+351${foneNumber}`,
+        // PhoneNumber: '+' + 351924469387,
         MessageAttributes: {
             'AWS.SNS.SMS.SenderID': {
                 'DataType': 'String',

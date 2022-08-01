@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const stoicPages = require('../assets/list');
+// const stoicPages = require('../assets/list');
 // const fs = require('fs');
 // const jsdom = require('jsdom');
 // const { JSDOM } = jsdom;
 // const StoicPage = require('../service/stoicPage')
 
-const awsService = require('../service/AWS_SNS')
+// const awsService = require('../service/AWS_SNS')
 
 // const stoicPage = new StoicPage()
 
@@ -29,8 +29,6 @@ router.get('/count', (req, res) => {
     let count = stoicPage.getCount()
     res.send(`${count}`)
 })
-
-// router.get('/sms', awsService.sendSMS)
 
 router.get('/:id', stoicPage.testeChangeDay)
 
