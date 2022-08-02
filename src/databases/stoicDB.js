@@ -5,11 +5,11 @@ let mainPool = null
 
 function createPool() {
     const client = new Pool({
-        host: process.env.DBHOST,
-        port: process.env.DBPORT,
-        database: process.env.DB,
-        user: process.env.DBUSER,
-        password: process.env.DBPASS,
+        host: process.env.DB_HOST,
+        port: process.env.DB_PORT,
+        database: process.env.DB_DATABASE,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
         ssl: {
             rejectUnauthorized: false
         }

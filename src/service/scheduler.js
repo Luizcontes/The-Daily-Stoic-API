@@ -14,9 +14,9 @@ const { getFoneList } = require('../controllers/stoicController')
 const sendSMS = require('./AWS_SNS').sendSMS
 
 const rule = new schedule.RecurrenceRule()
-rule.hour = 8
-// rule.second = [0, 15, 30, 45]
-// rule.minute = [0, 15, 30, 45]
+rule.hour = 12
+// rule.second = [0, 30]
+// rule.minute = 50
 
 exports.job = (message) => {
     schedule.scheduleJob(rule, async () => {

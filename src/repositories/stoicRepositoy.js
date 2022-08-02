@@ -14,7 +14,8 @@ class StoicRepository {
     async addFoneNumber(number) {
         const query = 'INSERT INTO list (telefone) VALUES ($1);'
         // client.connect()
-        const result = await getPool().query(query, [number])
+        // console.log(query)
+        const result = await getPool().query(`INSERT INTO list (telefone) VALUES (${number});`)
         // client.done()
         // console.log(number)
         return { ...result }
