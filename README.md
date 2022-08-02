@@ -2,6 +2,8 @@
 
 This is a service created to get user`s phone number and based on the book The Daily Stoic - by Ryan Holiday, to send one message related to each day to the user throught a sms message.
 
+https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736
+
 
 ## Reflection
 
@@ -12,11 +14,17 @@ The main focus of this project was to integrate different services, such as. get
 DATABASE: PostgreSQL provided by a Heroku
 
 BACK-END - NodeJs using the following packages:
+
 ExpressJs for the server along with some packages such as:
+
 -Nodemon - for auto refresh after each change in the code in the development
+
 -Dot-env - fot storaging the keys in the variable enviroment 
--PostgreSQL - DataBase used to store user`s data
+
+-PostgreSQL - DataBase used to store user\`s data
+
 -AWS-sdk - Service used to send SMS 
+
 -jsdom - Service used to extract book`s epub format parts
 
 ## Project`s Preview
